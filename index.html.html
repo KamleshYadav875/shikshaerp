@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>SHIKSHA | ERP | COUNSELLOR LOGIN</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        #main
+        {
+            width: 100%;
+            height: 100vh;
+        }
+        #leftside{
+            width: 100%;
+            height: 100%;
+            background-image: url('side.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #rightside
+        {
+            /* width: 100%;
+            height: 100%; */
+            /* overflow: hidden; */
+        }
+        #loginlbl
+        {
+            width: 100%;
+            height: 30%;
+
+        }
+        #counsellerlogin
+        {
+            background-color: #ab3b61;
+            padding: 10px 30px;
+            width: 200px;
+            margin-left: -31px;
+            margin-top: 40px;
+            border-top-right-radius: 20px;
+            color: #fff;
+        }
+        #sign
+        {
+            font-weight: 500;
+        }
+        #form
+        {
+            margin-top: 120px;
+        }
+        .social-icon{
+            display: flex;
+            flex-direction: row;
+        }
+        #btnlogin
+        {
+            margin-top:10px;
+            background-color: #003162;
+            border-top-right-radius:20px ;
+            padding: 5px 70px;
+        }
+        .footer
+        {
+            width: 300px;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            z-index: 1030;
+        }
+        /* position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; */
+    </style>
+  </head>
+  <body>
+    
+    <div class="row" id="main">
+        <div class="col-lg-6 col-md-6 col-sm-0">
+            <div class="" id="leftside">
+                
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="" id="rightside">
+                <div class="row" id="loginlbl">
+                    <div class="col-lg-12">
+                        <p id="counsellerlogin">Counsellor Login</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container" id="form">
+                        <!-- <label class="text-bold" id="sign">Sign In</label> -->
+                        <div class="" id="loginform">
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustomUsername">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-user" aria-hidden="true"></i> </span>
+                                        </div>
+                                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter Username" aria-describedby="inputGroupPrepend" required>
+                                        <div class="invalid-feedback">
+                                            Please choose a username.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustomUsername">Password</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-key" aria-hidden="true"></i> </span>
+                                        </div>
+                                        <input type="password" class="form-control" id="validationCustomUsername" placeholder="Enter Password" aria-describedby="inputGroupPrepend" required>
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend"><i class="fa fa-eye" aria-hidden="true"></i> </span>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please choose a Password.
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="">
+                            <label>Connect with</label>
+                            <div class="social-icon">
+                                <div class="" id="facebook"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></div>
+                                <div class="" id="google"><img src="https://img.icons8.com/color/48/000000/google-plus-squared.png"/></div>
+                                <div class="" id="linkedin"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></div>
+                            </div>
+                            <a href="" class="text-dark">Forget password</a>
+                        </div>
+                        <button class="btn btn-lg  text-center text-white" id="btnlogin">Login</button>
+                    </div>
+                </div>
+                <!-- <div class="footer p-1 mb-1 text-center">
+                    <small class="text-red">© 2020 shikshaerp.com All Rights Reserved</small>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
